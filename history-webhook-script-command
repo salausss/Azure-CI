@@ -1,0 +1,531 @@
+    1  cd /
+    2  mkdir /app
+    3  cd /app/
+    4  ls
+    5  vim nodejs.app
+    6  ping github
+    7  ping github.com
+    8  yum install git
+    9  ls
+   10  cd /
+   11  ls
+   12  mkdir upload-git
+   13  cd upload-git/
+   14  git init 
+   15  git branch 
+   16  git branch -l
+   17  git branch -list
+   18  ls -la
+   19  cd .git/
+   20  ls
+   21  ls -la
+   22  cd hooks/
+   23  ls
+   24  cd ..
+   25  ls
+   26  cd ..
+   27  ls
+   28  git branch
+   29  git config -global user.name salah
+   30  git config --global user.name salah
+   31  git config --global user.email salauss00@gmail.com
+   32  git config --global -l
+   33  git status
+   34  vim test-upload
+   35  ls
+   36  git status
+   37  git add .
+   38  git commit -m "1st pull request "
+   39  git status
+   40  git add origin --h
+   41  git remote add origin https://github.com/salausss/Github-demo.git
+   42  git remote -f
+   43  git remote -v
+   44  git status
+   45  git push origin master
+   46  v
+   47  vim cred
+   48  vim .gitignore
+   49  git status
+   50  git add .
+   51  git status
+   52  git commit -m "adding .git ignore file"
+   53  git status
+   54  ls
+   55  git branch 
+   56  git checkout main
+   57  git checkout -b main
+   58  ls
+   59  git status
+   60  ls
+   61  git push origin main
+   62  git push origin main ./cred
+   63  git push origin --help
+   64  git push origin main --tags  release.1
+   65  git push origin main --tags:release.1
+   66  git push origin main --tags=release.1
+   67  git push origin main --tags
+   68  git clone git@github.com:salausss/Github-demo.git
+   69  ls
+   70  cd ..
+   71  ls
+   72  cd upload-git/
+   73  ls
+   74  mkdir .ssh
+   75  cd .ssh/
+   76  ls
+   77  ssh-keygen -t rsa -C salauss00@gmail.com
+   78  ls
+   79  ls -la
+   80  ls
+   81  pwd
+   82  cp /root/.ssh/id_rsa .
+   83  ls
+   84  cp /root/.ssh/id_rsa.pub .
+   85  ls
+   86  cat id_rsa.pub 
+   87  cd ..
+   88  git push origin main --tags
+   89  ls
+   90  ls -la
+   91  cd .ssh/
+   92  ls
+   93  rm -rf *
+   94  ssh-keygen -t ed25519 -C  salauss00@gmail.com
+   95  ls
+   96  ssh-keygen -t ed25519 -C  salauss00@gmail.com
+   97  ls
+   98  cat id_ed25519.pub
+   99  ssh-add /upload-git/.ssh/id_ed25519
+  100  ssh-add /upload-git/.ssh/
+  101  cd /root/
+  102  ls
+  103  ls -la
+  104  cd .ssh/
+  105  ls
+  106  cd -
+  107  cd /upload-git/.ssh/
+  108  ls
+  109  ssh-add ~/.ssh/id_ed25519
+  110  ls
+  111  pwd
+  112  cp id_ed25519 /root/.ssh/
+  113  cd -
+  114  cd /root/.ssh/
+  115  ls 
+  116  ls -la
+  117  pwd
+  118  cd -
+  119  ls -la
+  120  cat id_ed25519.pub
+  121  git push origin main --tags
+  122  git push origin main 
+  123  pwd
+  124  ls 
+  125  cp id_ed25519.pub /root/.ssh/
+  126  git push origin main 
+  127  ls
+  128  pwd
+  129  cd /root/.ssh/
+  130  ls
+  131  vim aws-key.ppk
+  132  cd /
+  133  cd upload-git/
+  134  ls
+  135  ls -la
+  136  cd ..
+  137  >upload-git/
+  138  >upload-git/*
+  139  ls
+  140  cd upload-git/
+  141  ls
+  142  rm -rf *
+  143  ls
+  144  ls -la
+  145  rm -rf .ssh .git .gitignore 
+  146  ls -lrha
+  147  ls -la
+  148  git clone git@github.com:salausss/Github-demo.git
+  149  ls
+  150  ls -la
+  151  cd Github-demo/
+  152  ls 
+  153  ls -ltrh
+  154  ls -la
+  155  ls
+  156  ls -la
+  157  echo "this is test page" > test
+  158  ls
+  159  git add .
+  160  git status
+  161  git commit -m "1st"
+  162  git remote -v
+  163  git branch
+  164  git push origin main 
+  165  ls -la
+  166  cd .git/
+  167  ls
+  168  cd ..
+  169  ls
+  170  yum install telnet
+  171  ls
+  172  telne tgithub.com 22
+  173  telnet github.com 22
+  174  ls
+  175  cd /
+  176  ls
+  177  cd /upload-git/
+  178  ls
+  179  cd Github-demo/
+  180  ls
+  181  ls -ltrh
+  182  ls -la
+  183  echo "this is 2nd line" >> test
+  184  git status
+  185  git commit -am "2nd commit"
+  186  git push origin main --tags
+  187  ll /root/.ssh/
+  188  cd ..
+  189  ls
+  190  cd ..
+  191  ls
+  192  yum install webhook
+  193  yum install webhook*
+  194  yum install *webhook*
+  195  ls
+  196  cd /
+  197  ls
+  198  cd /
+  199  ls
+  200  wget https://dl.google.com/go/go1.11.4.linux-amd64.tar.gz 
+  201  du -sh *
+  202  tar -C /usr/local -xzf go1.11.4.linux-amd64.tar.gz
+  203  export PATH=$PATH:/usr/local/go/bin
+  204  cd /root/
+  205  ls
+  206  ls -la
+  207  cd /
+  208  ls
+  209  cd /app/
+  210  ls
+  211  cd ..
+  212  ls
+  213  mkdir script
+  214  cd script/
+  215  ls
+  216  go get github.com/adnanh/webhook
+  217  go get "github.com/adnanh/webhook"
+  218  ls
+  219  cd /root/go/
+  220  ls
+  221  cd src/
+  222  ls
+  223  cd github.com/
+  224  ls
+  225  cd adnanh/webhook/
+  226  ls
+  227  cd internal/
+  228  ls
+  229  cd pidfile/
+  230  ls
+  231  cat pidfile.go 
+  232  ll
+  233  cd /root/
+  234  ls
+  235  chmod 755 go -R
+  236  go get "github.com/adnanh/webhook"
+  237  updatedb
+  238  yum install locate
+  239  updatedb
+  240  locate webhook
+  241  /root/go/src/github.com/adnanh/webhook
+  242  cd /usr/local/go/
+  243  ls
+  244  cd bin/
+  245  ls
+  246  cd ..
+  247  ls
+  248  ps -ef|grep -i web
+  249  cd /app/
+  250  ls
+  251  cd ..
+  252  ls
+  253  mv app hooks
+  254  ls
+  255  cd hooks/
+  256  ls
+  257  vim hooks.json 
+  258  ls
+  259  export PATH=$PATH:/usr/local/go/bin
+  260  vim /etc/profile
+  261  cd /hooks/
+  262  ls
+  263  webhook -hooks hooks.json &
+  264   webhook -hooks hooks.json -verbose &
+  265  ps -ef|grep -i web
+  266  kill -9 4984
+  267  ps -ef|grep -i web
+  268  vim hooks.json 
+  269  webhook -hooks hooks.json -verbose &
+  270  vim hooks.json +17
+  271  webhook -hooks hooks.json -verbose &
+  272  ps -ef|grep -i web
+  273  kill -9 5063
+  274  webhook -hooks hooks.json -verbose &
+  275  cd /ho
+  276  cd /hooks/
+  277  ls
+  278  cat hooks.json 
+  279  vim /etc/httpd/conf/httpd.conf 
+  280  httpd -t
+  281  systemctl  reload httpd 
+  282  ls
+  283  ps -ef|grep hook
+  284  kill -9 2278 
+  285  rm -rf /var/www/html/hooks.json 
+  286  webhook -hooks hooks.json -verbose &
+  287  cd /download-git/
+  288  ls
+  289  cd ../hooks/
+  290  ls
+  291  ps -ef|grep hook
+  292  kill 15363
+  293  ps -ef|grep hook
+  294  ls
+  295  webhook -hooks hooks.json -verbose &
+  296  cd /
+  297  ls
+  298  cd /ho
+  299  cd /hooks/
+  300  ls
+  301  cat hooks.json 
+  302  updatedb
+  303  locate nodejs.app
+  304  mv nodejs.app nodejs.app---
+  305  systemctl  reload httpd 
+  306  httpd -t
+  307  vim /etc/httpd/conf/httpd.conf 
+  308  cat hooks.json 
+  309  ll "/app/redeploy-nodejs-app.sh"
+  310  cd /app/
+  311  ls
+  312  vim redeploy-nodejs-app.sh
+  313  ll
+  314  chmod 755 redeploy-nodejs-app.sh 
+  315  ll
+  316  cat /hooks/hooks.json 
+  317  locate nodejs.app
+  318  ls
+  319  cd /hooks/
+  320  ls
+  321  vim hooks.json 
+  322  ps -ef|grep hook
+  323  kill 7433
+  324  ps -ef|grep hook
+  325  webhook -hooks -verbose hooks.json 
+  326  webhook -hooks hooks.json -verbose &
+  327  updatedb
+  328  locate webhook
+  329  ps -ef|grep hook
+  330  kill 16697
+  331  cd /hooks/
+  332  webhook -hooks hooks.json -verbose &
+  333  cd /upload-git/Github-demo/
+  334  ls
+  335  git status
+  336  ls
+  337  pwd
+  338  ll
+  339  cd /app/
+  340  ls
+  341  vim redeploy-nodejs-app.sh 
+  342  ll /download-git/
+  343  vim redeploy-nodejs-app.sh 
+  344  ./redeploy-nodejs-app.sh 
+  345  vim redeploy-nodejs-app.sh 
+  346  cd /upload-git/
+  347  ls
+  348  cd Github-demo/
+  349  ls
+  350  vim ci-cd
+  351  git add .
+  352  git commit -m "testing webhook configuration"
+  353  git push origin main 
+  354  pwd
+  355  cd /download-git/Github-demo/
+  356  ls
+  357  git status
+  358  ls
+  359  ll
+  360  pwd
+  361  ll
+  362  cd /
+  363  cd /app/
+  364  ls
+  365  cat redeploy-nodejs-app.sh 
+  366  ll /download-git/Github-demo/
+  367  ./redeploy-nodejs-app.sh 
+  368  ll /download-git/Github-demo/
+  369  ls
+  370  ps -ef|grep hook
+  371  cd /download-git/Github-demo/
+  372  ls
+  373  git status
+  374  ll
+  375  cd /
+  376  ls
+  377  cd /app/
+  378  ls
+  379  cd /hooks/
+  380  ls
+  381  vim hooks.json 
+  382  ps -ef|grep hook
+  383  kill -9 17262
+  384  ls
+  385  ps -ef|grep hook
+  386  mv hooks.json not-hook
+  387  vim hooks.json
+  388  webhook -hooks hooks.json -verbose &
+  389  ps -ef|grep hook
+  390  kill 19610
+  391  webhook -hooks hooks.json -verbose &
+  392  ps -ef|grep hook
+  393  kill 20081
+  394  ps -ef|grep hook
+  395  webhook -hooks hooks.json -verbose 
+  396  cd /upload-git/Github-demo/
+  397  vim second-
+  398  vim second-attempt 
+  399  git add .
+  400  git commit -m "3rd attempt"
+  401  git status
+  402  git push origin main
+  403  ll
+  404  pwd
+  405  cd /download-git/Github-demo/
+  406  ll
+  407  pwd
+  408  cd -
+  409  vim second-attempt 
+  410  git add .
+  411  git commit -m "4th attempt"
+  412  git status
+  413  git push origin main
+  414  pwd
+  415  vim second-attempt 
+  416  git add .
+  417  git commit -m "5th attempt"
+  418  git push origin main
+  419  cd /hooks/
+  420  cat hooks.json 
+  421  vim 
+  422  cat hooks.json 
+  423  vim hooks.json 
+  424  ps -ef|grep hook
+  425  kill 20146
+  426  ps -ef|grep hook
+  427  ls
+  428  cd /hooks/
+  429  ls
+  430  vim hooks.json 
+  431  ls -la
+  432  rm -rf .hooks.json.swp 
+  433  vim hooks.json 
+  434  webhook -hooks hooks.json -verbose 
+  435  ps -ef|grep hook
+  436  vim hooks.json 
+  437  webhook -hooks hooks.json -verbose 
+  438  vim hooks.json +29
+  439  webhook -hooks hooks.json -verbose 
+  440  vim hooks.json +29
+  441  webhook -hooks hooks.json -verbose 
+  442  ps -ef|grep hook
+  443  vim hooks.json 
+  444  webhook -hooks hooks.json -verbose 
+  445  kill 20257
+  446  ps -ef|grep hook
+  447  webhook -hooks hooks.json -verbose 
+  448  ps -ef|grep hook
+  449  cd /upload-git/Github-demo/
+  450  ls
+  451  vim second-attempt 
+  452  git ad .
+  453  git add. 
+  454  git add .
+  455  git commit -m "6th attempt"
+  456  git push origin main
+  457  vim second-attempt 
+  458  git add .
+  459  git commit -n "7th attempt"
+  460  git commit -m "7th attempt"
+  461  git push origin main
+  462  cd /
+  463  ls
+  464  cd /app/
+  465  ls
+  466  cat /hooks/hooks.json 
+  467  ls
+  468  cd ..
+  469  ls
+  470  ll upload-git/
+  471  ls
+  472  rm -rf webhook-linux-amd64.tar.gz 
+  473  ls
+  474  rm -rf go1.11.4.linux-amd64.tar.gz 
+  475  ls
+  476  ll hooks/
+  477  ps -ef|grep hook
+  478  cd /app/
+  479  ls
+  480  cat redeploy-nodejs-app.sh 
+  481  cd ..
+  482  ls
+  483  mkdir download
+  484  mv download download-git
+  485  ls
+  486  cd download-git/
+  487  ls
+  488  git clone git@github.com:salausss/Github-demo.git
+  489  git status
+  490  ll /upload-git/
+  491  ls -la
+  492  cd Github-demo/
+  493  ls
+  494  ll
+  495  cd /app/
+  496  vim redeploy-nodejs-app.sh 
+  497  cd /hooks/
+  498  vim hooks.json 
+  499  cd /hooks/
+  500  ls
+  501  vim hooks.json 
+  502  journalctl -u webhook
+  503  cd /upload-git/Github-demo/
+  504  ls
+  505  vim second-attempt 
+  506  git add .
+  507  git commit -m "8th attempt"
+  508  git push origin main
+  509  cd /app/
+  510  vim redeploy-nodejs-app.sh 
+  511  vim /hooks/hooks.json 
+  512  ls
+  513  cat redeploy-nodejs-app.sh 
+  514  chmod +x redeploy-nodejs-app.sh 
+  515  ll
+  516  vim redeploy-nodejs-app.sh 
+  517  ls
+  518  cat redeploy-nodejs-app.sh 
+  519  cd /upload-git/Github-demo/
+  520  ls
+  521  vim be-persistent
+  522  git add .
+  523  pwd
+  524  git commit -m "be persistent & determined, you will acheive anything."
+  525  git push origin main
+  526  cd /download-git/Github-demo/
+  527  ls
+  528  cat be-persistent 
+  529  history 
+  530  cd /upload-git/Github-demo/
+  531  history > history-webhook-script-command
